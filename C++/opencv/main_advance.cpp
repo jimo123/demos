@@ -17,6 +17,22 @@
 using namespace cv;
 using namespace std;
 
+void travel_pixel(cv::InputArray srcImage)
+{
+    int iChannels = srcImage.channels();
+
+    cv::Mat img = srcImage.getMat();
+
+    for (int row = 0; row < srcImage.rows();row++)
+    {
+        const uchar *ptr = img.ptr<uchar>(row);
+        for (int col = 0; col < srcImage.cols();col++)
+        {
+            cout << ptr[col];
+        }
+    }
+}
+
 
 int main(int argc, char const *argv[])
 {
