@@ -2,5 +2,5 @@ threadID:   0num:      0
 threadID:   1num:      0
 threadID:   1num:      1
 threadID:   0num:      1
-threadID:   0num:      2
 threadID:   1num:      2
+threadID:   0num:      2
